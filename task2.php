@@ -1,13 +1,12 @@
 <?php
 $name = "hamanaka";
 if ($name == "hamanaka" ){
-  echo "私はあなたの名前です";
+  echo "私はhamanakaです";
 } else {
-  echo "私はあなたの名前ではありません";
+  echo "私はhamanakaではありません";
 }
 
-$total = 0;
-for ($i = 0; $i <= 10000; $i++) {
+for ($i = 1; $i <= 10000; $i++) {
    $total += $i;
 }
 echo $total;
