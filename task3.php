@@ -12,13 +12,14 @@ function f($a, $b){
 echo f(10,20);
 
 function　multiply($arr){
-  $result = 1
-  $i = arry(1,3,5,7,9)
-  for($i = 1; $i < $$arr; $i++);
-  $result += $i;
+  $result = 1;
+  foreach($arr as $a){
+  $result *= $a;
+}
   rerurn $result;
 }
-echo multiply(arry(1,3,5,7,9));
+$a = array(1,3,5,7,9);
+echo multiply(arry);
 
 function max_array($arr){
  $max_number = $arr[0];
