@@ -11,10 +11,10 @@ function f($a, $b) {
 }
 echo f(10,20);
 
-function　multiply($arr) {
-  $result = 0;
+function multiply($arr) {
+  $result = 1;
   for($i =1; $i < count($arr); $i++) {
-  $result *= $arr;
+  $result *= $arr[$i];
  }
   return $result;
 }
