@@ -12,7 +12,7 @@ function f($a, $b) {
 echo f(10,20);
 
 function multiply($arr) {
-  $result = 1;
+  $result = $arr[0];
   for($i =1; $i < count($arr); $i++) {
   $result *= $arr[$i];
  }
@@ -23,11 +23,11 @@ echo multiply(array(1,3,5,7,9));
 function max_array($arr) {
   $max_number = $arr[0];
   foreach($arr as $a) {
-  if($max<$array[$i]) {
-  $max=$array[$i];
- }
+  if($max_number < $a) {
+     $max_number = $a;
+  }
 }
  return $max_number;
 }
-
+ echo max_array(array(2,10,6,22));
 ?>
